@@ -150,11 +150,11 @@ void WalkMesh::walk_in_triangle(WalkPoint const &start, glm::vec3 const &step, W
 	// If no edge is crossed, event will just be taking the whole step:
 	time = 1.0f;
 	end = start;
-	unsigned int crossed_coord = -1;
+	int crossed_coord = -1;
 
 	// Figure out which edge (if any) is crossed first.
 	// Set 'time' and 'end' appropriately.
-	auto check_edge = [&time, &crossed_coord](const unsigned int coord, const float dest_weight, const float start_weight) {
+	auto check_edge = [&time, &crossed_coord](const int coord, const float dest_weight, const float start_weight) {
 		if (dest_weight > 0.0) return;
 		float cross_time = -start_weight / (dest_weight - start_weight);
 		assert(cross_time >= 0.0f);
