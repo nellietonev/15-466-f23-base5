@@ -3,7 +3,9 @@
 Author: Nellie Tonev
 
 Design: There is not a functioning game since every time I tried to add something interesting to the scene, it seemed to keep messing
-up the WalkMesh. The WalkMesh is implemented, and you can walk down a bumpy path to the end.
+up the WalkMesh. The WalkMesh is implemented, and you can walk down a bumpy path to the end. 
+
+The state of the past couple games has been a bit unfortunate and embarrassing, but hopefully game6 and final game will be better. :')
 
 Screen Shot:
 
