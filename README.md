@@ -1,18 +1,19 @@
-# (TODO: your game's title)
+# Just Walk Nowhere
 
-Author: (TODO: your name)
+Author: Nellie Tonev
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: There is not a functioning game since every time I tried to add something interesting to the scene, it seemed to keep messing
+up the WalkMesh. The WalkMesh is implemented, and you can walk down a bumpy path to the end.
 
 Screen Shot:
 
-![Screen Shot](screenshot.png)
+![Screen Shot](game_screenshot.png)
 
 How To Play:
+* Camera controls are the same as the default (click and move mouse to move camera, escape to ungrab)
+* Use WASD to move character around.
 
-(TODO: describe the controls and (if needed) goals/strategy.)
-
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: All assets created by me using Blender.
 
 This game was built with [NEST](NEST.md).
 
